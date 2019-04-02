@@ -3,18 +3,16 @@
 #include<ctype.h>
 #include<string.h>
 #include<cs50.h>
+
 int cipher(char*plaintext);
 
 int main()
     {
         char a;
-
         scanf("%c",&a);
         lowercase(&a);
 
-
-
-return 0;
+        return 0;
     }
 
 int lowercase(char* plaintext)
@@ -30,5 +28,4 @@ int lowercase(char* plaintext)
         }
             printf("\n");
             return(1);
-
 }
